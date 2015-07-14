@@ -1,0 +1,91 @@
+
+body {
+  /* Typography Declarations */
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.masthead-intro,
+.masthead-heading,
+.content-footer {
+  text-align: center;
+}
+.masthead{
+  padding: 6em 0;
+  background-image: url("http://i1167.photobucket.com/albums/q625/Kevin_Kindorf/f72e2c85_zpstsn5sbts.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  border-top: solid 1em #4D644E;
+}
+.masthead-intro{
+  margin-bottom: 0.1em;
+  color: white;
+  font-family: "gentium book basic", georgia, serif;
+  font-size: 3em;
+  
+}
+.masthead-heading{
+  margin-top: -0.2em;
+  color: #B9F0BA;
+  font-family: "Open Sans", "helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  letter-spacing: -0.01em;
+  text-transform: uppercase; 
+  text-shadow: .07em .07em .04em #2F4F4F;
+}
+.section > h1{
+ margin-top: 2em; 
+ margin-bottom: 1em;
+}
+.first,
+.second, 
+.third{
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: left;
+}
+.first > p,
+.second > p,
+.content-footer > p,
+.third > p{
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing:0.05em;
+}
+h2{
+  font-size: 1em;
+  color:  #6ABA6B;
+}
+  
+
+.content-footer{
+  background-color: #88B189;
+  background-size: cover;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.social > li{
+  display: inline-block;
+  color: #ADFF2F;
+}
+.content-footer > P{
+  color: white;
+  font-size: 1.2em;
+}
+ a{
+  color: #ADFF2F;
+  text-decoration: none;
+
+}
+
+.third > h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+}
